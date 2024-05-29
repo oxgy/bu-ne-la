@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+
+.league-spartan-anamenu-button {
+    font-family: "League Spartan", sans-serif;
+    background-color: #ccc;
+    border: 1px solid #343434;
+    margin: 2px auto;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    color: #343434;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 550;
+    height: 58px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 43.25%;
+    margin-top: 20px;
+}
+
+.league-spartan-anamenu-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.league-spartan-anamenu-button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.league-spartan-anamenu-button:hover span {
+    padding-right: 15px;
+}
+
+.league-spartan-anamenu-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.question-final-container {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100%;
+}
+
+.question-final-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.question-final-box {
+    flex: 4;
+    background-color: #343434;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 400px;
+    display: inline-block;
+    align-self: center;
+    color: whitesmoke;
+}
+
+.question-final-box p {
+    margin: 6.75px auto;
+}
+
+.guess-final-box {
+    width: 100px;
+    flex: 1;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #373737;
+    color: #343434;
+    background-color: #343434;
+}
+
+.guess-final-box p {
+    margin-top: 13.5px;
+}
+
+.guess-header-box {
+
+    background-color: #343434;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100px;
+    display: inline-block;
+    align-self: center;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.answers-box {
+    flex: 2;
+    background-color: #343434;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    align-self: center;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.correct {
+    background-color: #D4EDDA;
+}
+
+.incorrect {
+    background-color: #ff8189;
+}
+
+.question-final-box p {
+    margin: 6.75px auto;
+}
+
+.guess-final-box p {
+    margin-top: 13.5px;
+    text-align: center;
+}
+
+.answers-box p {
+    margin: 6.75px auto;
+    text-align: center;
+}

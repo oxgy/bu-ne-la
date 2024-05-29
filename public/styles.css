@@ -1,0 +1,11 @@
+nav {
+    height: 35px;
+    border: 1px solid red;
+}
+
+body {
+    background: #121212;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+}

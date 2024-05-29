@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+#header {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #080808;
+    border-top: 0;
+    background-color: #121212;
+    align-items: center;
+    width: 100%;
+}
+
+#league-spartan-bu-ne-la-text {
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 15px;
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+
+}
+
+#giris-text {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    margin-top: 10%;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.league-spartan-nasil-oynanir-button {
+    font-family: "League Spartan", sans-serif;
+    background-color: #343434;
+    border: 1px solid #ccc;
+    margin: 2px auto;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 550;
+    height: 58px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.league-spartan-nasil-oynanir-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.league-spartan-nasil-oynanir-button span:after {
+    content: '?';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.league-spartan-nasil-oynanir-button:hover span {
+    padding-right: 15px;
+}
+
+.league-spartan-nasil-oynanir-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.league-spartan-basla-button {
+    font-family: "League Spartan", sans-serif;
+    background-color: #343434;
+    border: 1px solid #ccc;
+    margin: 2px auto;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 550;
+    height: 58px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.league-spartan-basla-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.league-spartan-basla-button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.league-spartan-basla-button:hover span {
+    padding-right: 15px;
+}
+
+.league-spartan-basla-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.alert-container {
+    max-width: 600px;
+}
+
+.league-spartan-nasil-oynanir-text {
+    font-family: "League Spartan", sans-serif;
+    color: rgb(197, 197, 197);
+    font-size: 17px;
+}
+
+.alert {
+    background-color: #343434;
+    color: rgb(197, 197, 197);
+}
+
+.outline-dark {
+    color: #ccc;
+    border: 1px solid #ccc;
+}

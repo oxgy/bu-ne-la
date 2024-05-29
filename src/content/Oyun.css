@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+
+#header {
+  margin: 0;
+  padding: 0;
+  border: 2px solid #080808;
+  border-top: 0;
+  background-color: #121212;
+  display: block;
+  width: 100%;
+}
+
+#league-spartan-bu-ne-la-text {
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 15px;
+  font-family: "League Spartan", sans-serif;
+  color: white;
+  display: block;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+
+.league-spartan-letter-box {
+  font-family: "League Spartan", sans-serif;
+  background-color: #343434;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  align-self: center;
+  color: whitesmoke;
+  margin-left: 47%;
+  text-align: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-top: 5%;
+  margin-bottom: -50px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0;
+}
+
+.input-box {
+  width: 402px;
+  max-width: 402px;
+  height: 60px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background-color: #232323;
+  border: 2px solid #373737;
+  outline: none;
+  padding: 0.4vw 1.2rem;
+  margin-top: 0;
+}
+
+.question-history-container {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.question-history-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.question-history-box {
+  flex: 4;
+  background-color: #343434;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 400px;
+  display: inline-block;
+  align-self: center;
+  color: whitesmoke;
+}
+
+.question-history-box p {
+  margin: 6.75px auto;
+}
+
+.guess-history-box {
+  width: 100px;
+  flex: 1;
+  border-radius: 10px;
+  margin-left: 20px;
+  text-align: center;
+  display: table;
+}
+
+.guess-history-box p {
+  margin-top: 13.5px;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.league-spartan-loading-text {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 20%;
+  font-size: x-large;
+}
+
+.league-spartan-questions {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 7%;
+  font-size: xx-large;
+}
+
+.correct {
+  border: 3px solid #373737;
+  background-color: #D4EDDA;
+  color: #121212;
+}
+
+.incorrect {
+  border: 3px solid #373737;
+  background-color: #ff8189;
+  color: #343434;
+}
+
+.cevapla-button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ccc;
+  border: 2px solid #373737;
+  color: #121212;
+  text-align: center;
+  font-size: 17px;
+  height: 58px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.cevapla-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cevapla-button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.cevapla-button:hover span {
+  padding-right: 15px;
+}
+
+.cevapla-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
